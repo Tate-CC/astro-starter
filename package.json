@@ -16,6 +16,7 @@
     "@astrojs/svelte": "^5.4.0",
     "@astrojs/tailwind": "^5.0.0",
     "@bookshop/astro-bookshop": "^3.9.0",
+    "@cloudcannon/svelte-connector": "^1.0.3",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
