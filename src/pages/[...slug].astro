@@ -1,5 +1,6 @@
 ---
 import PageLayout from '../layouts/Page.astro';
+import SvelteTest from '../components/SvelteTest.svelte';
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 export interface Props {
@@ -22,4 +23,7 @@ if (!page.data) {
 }
 ---
 
+<SvelteTest
+  message="This is a message in a Svelte component, passed from an Astro page"
+/>
 <PageLayout frontmatter={page.data} />
