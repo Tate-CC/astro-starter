@@ -2,6 +2,7 @@
 import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 import Icon from '../icon/icon.jsx';
+import SvelteTest from '../SvelteTest.svelte';
 
 interface Props {
   imagePath: string;
@@ -34,6 +35,8 @@ let blobColor = block.blobColor;
 ---
 
 <section class="hero-container">
+  <SvelteTest message="Hello from a Bookshop component in a Svelte component" />
+  <SvelteTest message={block.name} />
   <div class="content">
     <h1 class="heading">Astro Bookshop Starter</h1>
     <p>
