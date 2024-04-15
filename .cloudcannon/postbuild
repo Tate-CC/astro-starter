@@ -1,1 +1,2 @@
+npm install --legacy-peer-deps
 npx @bookshop/generate
